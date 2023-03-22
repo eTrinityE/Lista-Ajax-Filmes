@@ -1,0 +1,32 @@
+* {
+    background-color: rgb(141, 141, 141);
+    font-size: 20px;
+}
+
+.boxExterna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.movieDiv {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    width: 600px;
+}
+
+.posterPath {
+    margin-right: 20px;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.movieInfo p {
+    margin: 0;
+}
